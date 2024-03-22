@@ -37,16 +37,13 @@ Siga estes passos para configurar o backend da Nuwelo em seu ambiente de desenvo
   composer install
 ```
 4. Crie um arquivo .env baseado no .env.example fornecido e configure sua conexão com o banco de dados PostgreSQL.
-```bash
-  php artisan key:generate
-```
 5. Gere a chave da aplicação Laravel:
 ```bash
-    php artisan migrate
+    php artisan key:generate
 ```
 6. Rode as migrations para criar as tabelas no banco de dados:
 ```bash
-
+php artisan migrate
 ```
 7. Inicie o servidor de desenvolvimento:
 ```bash
